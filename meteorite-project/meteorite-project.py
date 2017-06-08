@@ -86,7 +86,7 @@ def main():
             countries_2010_documented.append((country,countries_2010[country]))
 
     countries_2008_documented = sorted(countries_2008_documented, key=lambda tup: tup[1], reverse=True)[:5]
-    countries_2010_documented = sorted(countries_2008_documented, key=lambda tup: tup[1], reverse=True)[:5]
+    countries_2010_documented = sorted(countries_2010_documented, key=lambda tup: tup[1], reverse=True)[:5]
 
     print("\nTop 5 2008 countries documented...")
     print(countries_2008_documented)
