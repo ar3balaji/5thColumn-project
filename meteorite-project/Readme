@@ -1,0 +1,16 @@
+Requirements:
+1. pandas, reverse_geocoder and requests[security]. Required packages can be installed using pip.
+2. python 3+
+
+How to test code:
+1. After the project zip file is extracted, change current directory to folder named meteorite-project in the extracted file.
+2. From meteorite-project folder, execute following command "python meteorite-project.py" to run the program.
+3. After the execution of above command, the console statements will provide answers for questions from one to four.
+
+Answer to Question 5 Can you infer anything from this data? Why or why not?
+From the meteorite data of 2008 and 2010 we can tell that meteorite seen correlates to densely populated regions. However
+we need to further analyze the complete data set to be 100% sure. Additionally, we can say that countries which are densely populated
+are doing more research in meteorite to avoid any causalities.
+
+Please refer to project_x document for proposed model for anomaly detection.
+
